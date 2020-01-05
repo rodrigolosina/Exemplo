@@ -1,0 +1,102 @@
+6/12/2019
+
+1. Testar se os campos são válidos antes de incluir o registro. Exemplo, na criação de um novo evento (por exemplo, com datas obrigatórias)
+    utilizamos 'required' do HTML 5 no incluir evento. Utilizar recursos como este em todos os formulários.
+2. Editar evento precisa ter os mesmos campos de incluir evento
+***3. Criar todos os campos do incluir evento
+4. FEITO.....................Tela de confirmação do remover
+5. Melhorar layout básico do evento
+6. Tela pós inclusão ou pós edição ou pós remoção precisa melhorar.
+7. Validação por e-mail do cadastro
+8. Vincular a um sistema de envio de e-mail
+9. Criar aplicação na nuvem
+10. Configurar GIT
+11. Criar páginação das telas de listagens
+12. Decidir regra de formação da URL do hotsite de cada evento
+
+19/12/2019 - Evento Abril
+
+1) Inscrições Pessoa Física
+1. Definir e implementar o cadastro com todos os campos
+2. Controle de pagamento por dia de evento 
+3. Controle de vaga por atividade no dia. ->
+4. Sistema de Cobrança -> *valor variavel
+5. E-mail de inscrito -> 
+
+
+2) Inscrições Variadas (*objetivo mínimo)
+(Expositor, Palestrante, Comissao Organizadora)
+1. Cadastro direto (pelo administrador)
+2. Sistema de Cobrança ->
+
+3) Inscrições de Lote
+1. Sistema de Cobrança por lote com cadastro dos e-mails
+2. (*idealmente) sistema de gestão de lotes para o pagante
+
+4) Cadastro de Expositores
+1. CRUD de pessoa jurídica vinculada ao evento
+
+5) Sistema de Cobrança
+1. Validar se vai ser realmente utilizado o Itaú Shopline
+2. Implementar integração
+3. Implementar controle de valores e valores variáveis
+4. Trabalhar com valores por dia
+5. Sistemas de financeiro
+
+
+6) Cadastro de atividades e seletor de atividades
+1. Criar os dias
+2. Criar os períodos
+3. Criar atividades por dia e período
+4. Atividades tem vagas
+5. Na inscrição temos uma fase 2 de reserva de vagas nas atividades
+
+
+19/12 - Plano de ação
+
+Até 6/1
+Rodrigo
+Migrar ambiente para Amazon em conta da Alfa
+Colocar tudo no GIT?
+Mostrar como fazer
+Adotar o GIT
+
+
+Pedro
+Cadastros
+pf ->
+criar todos os cadastros
+
+evento ->
+criar a descrição do evento
+criar a descrição da atividade
+
+
+Após 6/1
+
+Fazermos juntos o select do estado
+estado -> Não precisa criar o CRUD, apenas cadastrar todos os estados
+montamos o hotsite do evento
+
+Meta para janeiro (até o final)
+
+sistema na Amazon, em que a pessoa enxerga o hotsite, com os dados do evento e a lista de atividades,
+se inscreve, preenche todos os dados, recebe e-mail de confirmação.
+Administrador tem a lista de todas as pessoas inscritas
+
+
+Fevereiro
+Melhorar ativiades (atividads por período)
+Definir dias de evento
+Definir inscrição por dia ou completa
+Definir reserva de vaga em atividades
+-> contratar alguém para fazer layout
+
+Março
+Implementar pagamento
+
+
+
+
+
+
